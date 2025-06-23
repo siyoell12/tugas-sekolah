@@ -50,18 +50,6 @@ Aplikasi akan menampilkan menu utama dengan tiga opsi:
 
 Kalkulator
 Pilih opsi 1 untuk mengakses kalkulator. Anda akan melihat tampilan kalkulator dengan "layar" dan "tombol" yang dibuat menggunakan karakter ASCII:
- ┌─────────────────────┐
- │                    0│
- └─────────────────────┘
-┌─────┬─────┬─────┬─────┐
-│  7  │  8  │  9  │  /  │
-├─────┼─────┼─────┼─────┤
-│  4  │  5  │  6  │  *  │
-├─────┼─────┼─────┼─────┤
-│  1  │  2  │  3  │  -  │
-├─────┼─────┼─────┼─────┤
-│  0  │  .  │  =  │  +  │
-└─────┴─────┴─────┴─────┘
 
 Ikuti petunjuk untuk memasukkan angka dan operator. Hasil perhitungan akan ditampilkan di "layar" kalkulator.
 Pengelola Tugas
@@ -93,7 +81,8 @@ Tandai Tugas Selesai / Hapus Tugas
 
 Struktur Data
 Tugas disimpan dalam file assignments.json dengan struktur:
-jsonDownloadCopy code Wrap[
+```bash
+[
   {
     "id": 1,
     "name": "Matematika PR Bab 3",
@@ -109,6 +98,7 @@ jsonDownloadCopy code Wrap[
     "createdAt": "2023-06-24T09:12:34.567Z"
   }
 ]
+```
 Kustomisasi
 Mengubah Tampilan Kalkulator
 Edit fungsi drawCalculatorScreen() dan drawCalculatorButtons() untuk mengubah tampilan kalkulator.
